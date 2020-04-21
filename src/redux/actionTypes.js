@@ -1,0 +1,2 @@
+export const ADD_RECEPIE = "ADD_RECEPIE";
+export const DELETE_RECEPIE = "DELETE_RECEPIE";

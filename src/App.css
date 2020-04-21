@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+.Toastify__toast--error{
+  background: #FF5252 !important ;
+}
+
+.hotpink {
+  color : #ff5252
+}
+.light-pink{
+  color:#E57373
+}
+
+.instruction-background {
+  padding: 10px;
+  background-color: #26a69a40;
+}
+
+.m10{
+  margin: 10px
+}
+
+.modal-body{
+  background: white;
+  width: 85%;
+  height: auto;
+  margin: 3% auto;
+  padding: 2% 5%;
+}
+
+.modal-backdrop{
+  background: #00000070;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0; 
+  left: 0;
+  overflow-y: auto;
+}
+
+.modal-title {
+  color: #26a69a;
+  text-transform: uppercase;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
