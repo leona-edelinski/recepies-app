@@ -49,7 +49,7 @@ const RecepieEntry = ({ setModalAdd }) => {
             toast.error("Name of Recepie is a required field", errorToast);
             flag = false
         }
-        if (!newRecepie.time || (newRecepie.time && !(newRecepie.time.hours || newRecepie.time.minutes))) {
+        if (!newRecepie.time || (newRecepie.time && !(newRecepie.time.hours || newRecepie.time.minutes)) || validationMessage) {
             toast.error("You must enter Preparation Time (Hours or/and Minutes)", errorToast);
             flag = false
         }
